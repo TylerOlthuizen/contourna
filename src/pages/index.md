@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/hero-illustration.svg
+image: /img/blog-index.jpg
 heading: Make your business easier to manage
 subheading: "Let your managers manage processes that lead to customer
   satisfaction and improved quality. We work with companies looking to improve
