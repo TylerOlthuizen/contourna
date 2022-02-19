@@ -1,13 +1,11 @@
 ---
 templateKey: index-page
-title: Make your business easier to managess
+title: Make your business easier to managezzzz
 image: /img/blog-index.jpg
 heading: Make your business easier to manage
 subheading: "Let your managers manage processes that lead to customer
   satisfaction and improved quality. We work with companies looking to improve
   their system and prepare themselves to scale. "
-ctaTitle: Get Started
-ctaPath: get-a-free-quote
 mainpitch:
   title: Why Kaldi
   description: >
@@ -15,10 +13,7 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-description: Kaldi is the ultimate spot for coffee lovers who want to learn
-  about their java’s origin and support the farmers that grew it. We take coffee
-  production, roasting and brewing seriously and we’re glad to pass that
-  knowledge to anyone.
+ctaTitle: Get Started
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -54,6 +49,11 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+ctaPath: get-a-free-quote
+description: Kaldi is the ultimate spot for coffee lovers who want to learn
+  about their java’s origin and support the farmers that grew it. We take coffee
+  production, roasting and brewing seriously and we’re glad to pass that
+  knowledge to anyone.
 main:
   heading: Great coffee with no compromises
   description: >
