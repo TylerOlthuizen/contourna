@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Great coffee with a conscienceeeeeee
 image: /img/blog-index.jpg
 heading: Make your business easier to manage
 subheading: "Let your managers manage processes that lead to customer
