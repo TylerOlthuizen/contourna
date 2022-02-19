@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Make your business easier to manage
+title: Make your business easier to managess
 image: /img/blog-index.jpg
 heading: Make your business easier to manage
 subheading: "Let your managers manage processes that lead to customer
