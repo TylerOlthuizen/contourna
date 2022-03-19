@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Make your business easier to managezzzz
+title: Make your business easier to manage
 image: /img/undraw_revenue_re_2bmg.svg
 heading: Make your business easier to manage
 subheading: Let your managers manage processes that lead to customer
