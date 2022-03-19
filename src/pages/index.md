@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Make your business easier to manage
-heroImage: /img/blog-index.jpg
+heroImage: /img/undraw_revenue_re_2bmg.svg
 heading: Make your business easier to manage
 subheading: Let your managers manage processes that lead to customer
   satisfaction and improved quality.
