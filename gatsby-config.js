@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "Contourna",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "The Most Advanced Principles in Quality Management, Molded to Fit Your Organization.",
   },
   plugins: [
+    "gatsby-plugin-root-import",
     "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-sass",
@@ -66,6 +67,14 @@ module.exports = {
           },
         ],
       },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: "/static/img",
+        }
+      }
     },
     {
       resolve: "gatsby-plugin-netlify-cms",

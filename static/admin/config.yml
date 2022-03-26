@@ -35,7 +35,7 @@ collections:
 
   - name: "pages"
     label: "Pages"
-    
+
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
@@ -48,36 +48,30 @@ collections:
               default: "index-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
+          - { label: Image, name: heroImage, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Subheading, name: subheading, widget: string }
+          - { label: CTA Title, name: ctaTitle, widget: string }
+          - { label: CTA Path, name: ctaPath, widget: string }
           - {
-              label: Mainpitch,
-              name: mainpitch,
-              widget: object,
-              fields:
-                [
-                  { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: text },
-                ],
-            }
-          - { label: Description, name: description, widget: string }
-          - {
-              label: Intro,
-              name: intro,
+              label: Why Businesses Choose Contourna?,
+              name: services,
               widget: object,
               fields:
                 [
                   { label: Heading, name: heading, widget: string },
                   { label: Description, name: description, widget: text },
+                  { label: CTA Title, name: ctaTitle, widget: string },
+                  { label: CTA Path, name: ctaPath, widget: string },
                   {
-                    label: Blurbs,
-                    name: blurbs,
+                    label: Services Stat Cards,
+                    name: service-stat-cards,
                     widget: list,
                     fields:
                       [
                         { label: Image, name: image, widget: image },
-                        { label: Text, name: text, widget: text },
+                        { label: Title, name: title, widget: text },
+                        { label: Content, name: content, widget: text },
                       ],
                   },
                 ],
