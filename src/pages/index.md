@@ -40,6 +40,19 @@ solutions:
         meet employee needs, and improve retention. "
       ctaTitle: Learn More
       ctaPath: solutions/hiring-and-onboarding
+    - image: /img/undraw_online_organizer_re_156n.svg
+      title: Customer Satisfaction
+      content: "We aim to retain the customer by  tailoring your business to meet
+        customer needs to increase your resources and minimize minutia. "
+      ctaTitle: Learn More
+      ctaPath: solutions/customer-satisfaction
+    - image: /img/undraw_online_organizer_re_156n.svg
+      title: Employee Involvement
+      content: "Our goal is keeping the employees aligned with the company's values.
+        As a result, you will have more time to grow your business in other
+        areas. "
+      ctaTitle: Learn More
+      ctaPath: solutions/employee-involvement
 main:
   heading: Great coffee with no compromises
   description: >
