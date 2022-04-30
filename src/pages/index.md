@@ -7,6 +7,25 @@ subheading: Let your managers manage processes that lead to customer
   satisfaction and improved quality.
 ctaTitle: Get Started
 ctaPath: get-a-free-quote
+services:
+  heading: Why Businesses Choose Contourna?
+  description: We take the most important quality management principles and mould
+    them to fit in the context of your organization.
+  ctaTitle: Our Services
+  ctaPath: /services
+  service-stat-cards:
+    - title: Retain Customers
+      content: "After a positive experience, 69% would recommend the company to others
+        and 50% would use the business more frequently. "
+      image: /img/undraw_online_organizer_re_156n.svg
+    - image: /img/undraw_online_organizer_re_156n.svg
+      title: Boosted Sales
+      content: 55% of customers become a customer of a company because of their
+        reputation for a great product or service.
+    - title: Stay Organized and Productive
+      content: 75% of small business owners believe disorganization leads to turnover,
+        productivity loss and missed opportunities.
+      image: /img/undraw_online_organizer_re_156n.svg
 main:
   heading: Great coffee with no compromises
   description: >
