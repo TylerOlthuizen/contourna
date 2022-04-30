@@ -31,6 +31,15 @@ services:
         problem,  costing  $1,500 per hourly employee or 6 months for a salaried
         worker.  "
       image: /img/undraw_online_organizer_re_156n.svg
+solutions:
+  heading: Contourna Solutions
+  home-solution-cards:
+    - image: /img/undraw_online_organizer_re_156n.svg
+      title: Hiring & Onboarding
+      content: "With our employee onboarding approach, you’ll save time and better
+        meet employee needs, and improve retention. "
+      ctaTitle: Learn More
+      ctaPath: solutions/hiring-and-onboarding
 main:
   heading: Great coffee with no compromises
   description: >
