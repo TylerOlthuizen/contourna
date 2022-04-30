@@ -26,6 +26,11 @@ services:
       content: 75% of small business owners believe disorganization leads to turnover,
         productivity loss and missed opportunities.
       image: /img/undraw_online_organizer_re_156n.svg
+    - title: Reduce Employee  Costs
+      content: "81% of businesses agree that employee turnover is a costly
+        problem,  costing  $1,500 per hourly employee or 6 months for a salaried
+        worker.  "
+      image: /img/undraw_online_organizer_re_156n.svg
 main:
   heading: Great coffee with no compromises
   description: >
