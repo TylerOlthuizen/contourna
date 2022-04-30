@@ -8,7 +8,8 @@ import Features from "components/Features";
 import BlogRoll from "components/BlogRoll";
 import FullWidthImage from "components/FullWidthImage";
 import Hero from "components/Hero";
-
+import Services from "sections/Services";
+import Solutions from "sections/Solutions";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -18,18 +19,14 @@ export const IndexPageTemplate = ({
   description,
   ctaTitle,
   ctaPath,
+  services,
+  solutions,
 }) => {
-  console.log(ctaTitle);
   return (
     <div>
       <Hero img={heroImage} title={title} subheading={subheading} ctaTitle={ctaTitle} ctaPath={ctaPath} />
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-
-          </div>
-        </div>
-      </section>
+      <Services services={services} />
+      <Solutions solutions={solutions} />
     </div>
   );
 };
@@ -41,9 +38,18 @@ IndexPageTemplate.propTypes = {
   ctaPath: PropTypes.string,
   subheading: PropTypes.string,
   description: PropTypes.string,
-  // intro: PropTypes.shape({
-  //   blurbs: PropTypes.array,
-  // }),
+  services: PropTypes.shape({
+    ctaPath: PropTypes.string,
+    ctaTitle: PropTypes.string,
+    description: PropTypes.string,
+    heading: PropTypes.string,
+    service_stat_cards: PropTypes.array,
+  }),
+  solutions: PropTypes.shape({
+    heading: PropTypes.string,
+    home_solution_cards: PropTypes.array,
+  }),
+  
 };
 
 const IndexPage = ({ data }) => {
@@ -58,6 +64,8 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         subheading={frontmatter.subheading}
         description={frontmatter.description}
+        services={frontmatter.services}
+        solutions={frontmatter.solutions}
       />
     </Layout>
   );
@@ -73,21 +81,47 @@ IndexPage.propTypes = {
 
 export default IndexPage;
 
+ 
 export const pageQuery = graphql`
-  query IndexPageTemplate {
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      frontmatter {
-        title
-        heroImage {
-          publicURL
-        }
-        heading
-        subheading
-        ctaTitle
+query IndexPageTemplate {
+  markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
+    frontmatter {
+      title
+      heading
+      subheading
+      ctaTitle
+      ctaPath
+      description
+      heroImage {
+        publicURL
+      }
+      services {
         ctaPath
+        ctaTitle
         description
-
+        heading
+        service_stat_cards {
+          content
+          image {
+            publicURL
+          }
+          title
+        }
+      }
+      solutions {
+        heading
+        home_solution_cards {
+          content
+          ctaPath
+          ctaTitle
+          title
+          image {
+            publicURL
+          }
+        }
       }
     }
   }
+}
 `;
+

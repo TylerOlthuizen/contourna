@@ -77,6 +77,28 @@ collections:
                 ],
             }
           - {
+              label: Contourna Solutions,
+              name: solutions,
+              widget: object,
+              fields:
+                [
+                  { label: Heading, name: heading, widget: string },
+                  {
+                    label: Solutions Cards,
+                    name: home-solution-cards,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Image, name: image, widget: image },
+                        { label: Title, name: title, widget: text },
+                        { label: Content, name: content, widget: text },
+                        { label: CTA Title, name: ctaTitle, widget: string },
+                        { label: CTA Path, name: ctaPath, widget: string },
+                      ],
+                  },
+                ],
+            }
+          - {
               label: Main,
               name: main,
               widget: object,

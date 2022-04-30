@@ -15,6 +15,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
         ctaTitle={data.ctaTitle}
         ctaPath={data.ctaPath}
         description={data.description}
+        services={data.services}
       />
     )
   } else {

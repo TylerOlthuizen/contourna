@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { StaticImage } from "gatsby-plugin-image"
 import Button from "components/Button"
 // import SVG  from ``
 export default function Hero(props){
@@ -13,7 +12,6 @@ export default function Hero(props){
     ctaPath,
     imgPosition = "top left",
   } = props;
-  console.log(ctaTitle, ctaPath);
   return(
     <React.Fragment>
       <section className="header py-6">

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from "prop-types";
-
+import { IoChevronForward } from "react-icons/io5";
 export default function Button(props){
   const {title , path , type } = props;
 
@@ -13,7 +13,10 @@ export default function Button(props){
   } else{
     return(
       <a href={`${path}`} className="secondary-cta">
-        {title}
+        <span>
+          {title}
+        </span>
+        <IoChevronForward />
       </a>
     )
   }
