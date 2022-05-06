@@ -85,4 +85,5 @@ how-it-works:
     provide a report with our findings. "
   ctaTitle: Get Started
   ctaPath: /get-started
+  image: /img/undraw_diary_re_4jpc.svg
 ---
