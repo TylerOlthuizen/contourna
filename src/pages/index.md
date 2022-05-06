@@ -7,6 +7,22 @@ subheading: Let your managers manage processes that lead to customer
   satisfaction and improved quality.
 ctaTitle: Get Started
 ctaPath: get-a-free-quote
+main:
+  heading: Great coffee with no compromises
+  description: >
+    We hold our coffee to the highest standards from the shrub to the cup.
+    That’s why we’re meticulous and transparent about each step of the coffee’s
+    journey. We personally visit each farm to make sure the conditions are
+    optimal for the plants, farmers and the local environment.
+  image1:
+    alt: A close-up of a paper filter filled with ground coffee
+    image: /img/products-grid3.jpg
+  image2:
+    alt: A green cup of a coffee on a wooden table
+    image: /img/products-grid2.jpg
+  image3:
+    alt: Coffee beans
+    image: /img/products-grid1.jpg
 services:
   heading: Why Businesses Choose Contourna?
   description: We take the most important quality management principles and mould
@@ -53,21 +69,20 @@ solutions:
         areas. "
       ctaTitle: Learn More
       ctaPath: solutions/employee-involvement
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 image: /img/undraw_revenue_re_2bmg.svg
+how-it-works:
+  heading: How it works
+  how-it-works-list:
+    - listHeading: "1. Planning:"
+      listContent: We research and prepare our program.
+    - listHeading: "2. Fieldwork:"
+      listContent: We conduct our testing and interviews.
+    - listHeading: "3. Findings:"
+      listContent: We draft a report with our observations.
+    - listHeading: "4. Meeting:"
+      listContent: The report will be reviewed and discussed.
+  copy: "Our process is easy. You contact us to complete an audit, and we will
+    provide a report with our findings. "
+  ctaTitle: Get Started
+  ctaPath: /get-started
 ---
