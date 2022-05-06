@@ -99,43 +99,26 @@ collections:
                 ],
             }
           - {
-              label: Main,
-              name: main,
+              label: How It Works,
+              name: how-it-works,
               widget: object,
               fields:
                 [
                   { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
                   {
-                    label: Image1,
-                    name: image1,
-                    widget: object,
+                    label: How it works list,
+                    name: how-it-works-list,
+                    widget: list,
                     fields:
                       [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
+                        { label: List Heading, name: listHeading, widget: text },
+                        { label: List Content, name: listContent, widget: text },
                       ],
                   },
-                  {
-                    label: Image2,
-                    name: image2,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
-                  {
-                    label: Image3,
-                    name: image3,
-                    widget: object,
-                    fields:
-                      [
-                        { label: Image, name: image, widget: image },
-                        { label: Alt, name: alt, widget: string },
-                      ],
-                  },
+                  { label: copy, name: copy, widget: string },
+                  { label: CTA Title, name: ctaTitle, widget: string },
+                  { label: CTA Path, name: ctaPath, widget: string },
+                  { label: Image, name: image, widget: image },
                 ],
             }
       - file: "src/pages/company/index.md"

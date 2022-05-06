@@ -10,6 +10,7 @@ import FullWidthImage from "components/FullWidthImage";
 import Hero from "components/Hero";
 import Services from "sections/Services";
 import Solutions from "sections/Solutions";
+import HowItWorks from "sections/HowItWorks";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -21,12 +22,14 @@ export const IndexPageTemplate = ({
   ctaPath,
   services,
   solutions,
+  howItWorks,
 }) => {
   return (
     <div>
       <Hero img={heroImage} title={title} subheading={subheading} ctaTitle={ctaTitle} ctaPath={ctaPath} />
       <Services services={services} />
       <Solutions solutions={solutions} />
+      <HowItWorks howItWorks={howItWorks} />
     </div>
   );
 };
@@ -49,6 +52,14 @@ IndexPageTemplate.propTypes = {
     heading: PropTypes.string,
     home_solution_cards: PropTypes.array,
   }),
+  howItWorks:PropTypes.shape({ 
+    copy: PropTypes.string,
+    ctaPath: PropTypes.string,
+    ctaTitle: PropTypes.string,
+    heading: PropTypes.string,
+    how_it_works_list: PropTypes.array,
+    image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  }),
   
 };
 
@@ -66,6 +77,7 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         services={frontmatter.services}
         solutions={frontmatter.solutions}
+        howItWorks={frontmatter.how_it_works}
       />
     </Layout>
   );
@@ -118,6 +130,19 @@ query IndexPageTemplate {
           image {
             publicURL
           }
+        }
+      }
+      how_it_works {
+        copy
+        ctaPath
+        ctaTitle
+        heading
+        image{
+          publicURL
+        }
+        how_it_works_list {
+          listContent
+          listHeading
         }
       }
     }

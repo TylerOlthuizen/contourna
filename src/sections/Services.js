@@ -4,7 +4,6 @@ import { ContentCardAndImage } from "components/ContentCardAndImage"
 
 const Services = ({services}) => {
   const {heading , description , ctaTitle , ctaPath, service_stat_cards } = services;
-  console.log(service_stat_cards);
   return(
     <section className="section services section--gradient">
     <div className="container">
