@@ -13,7 +13,7 @@ const HowItWorks = ({howItWorks}) => {
             <div className="header__content column is-half-tablet pr-5">
                 {/* Any content here will be centered in the component */}
                 {heading && (
-                  <h1 className="is-size-1">
+                  <h1 className="is-size-1 mb-3">
                     {heading}
                   </h1>
                 )}
@@ -26,7 +26,7 @@ const HowItWorks = ({howItWorks}) => {
                             <p>
                               {item.listHeading}
                             </p>
-                            <p style={{marginLeft:"1rem",marginTop:"0.4rem"}}>
+                            <p className="ml-1 mt-1">
                               {item.listContent}
                             </p>
                           </div>
