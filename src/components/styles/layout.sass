@@ -1,8 +1,33 @@
+.navbar 
+  padding: 2rem 0rem
+  .container
+    justify-content: space-between
+    .navbar-item
+      flex:1
+    .navbar-item.logo
+      img 
+        max-height: none
+    #navMenu
+      flex:0
+      .navbar-start
+        align-items: center
+        display: flex
+        .primary-cta
+          white-space: nowrap
+          margin-top: 0
+          margin-left: 0.5rem
+
+@media screen and (min-width: 1024px)
+  .navbar > .container .navbar-menu, .container > .navbar .navbar-menu
+    margin-right: 0
+
+  
 .header
-  padding-top: 2.5rem
-  padding-bottom: 2.5rem
+  padding-top: 3.5rem
+  padding-bottom: 3.5rem
   &__illustration
     display: flex
     justify-content: center
     img
       width:65%
+  

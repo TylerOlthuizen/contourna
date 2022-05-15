@@ -14,7 +14,7 @@ export default function Hero(props){
   } = props;
   return(
     <React.Fragment>
-      <section className="header py-6">
+      <section className="header">
         <div className="container">
           <div className="is-flex-tablet is-align-items-center columns">
             <div className="header__content column is-half-tablet pr-5">

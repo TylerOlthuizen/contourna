@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import github from "../img/github-icon.svg";
 import logo from "../img/logo.svg";
+import Button from "components/Button"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -41,8 +42,8 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "120px" }} />
+            <Link to="/" className="navbar-item logo" title="Logo">
+              <img src={logo} alt="Kaldi" style={{ width: "180px" }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -72,21 +73,7 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/quote">
-                Get A Free Quote
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
+              <Button title="Get A Free Quote" path="/quote" type="primary" /> 
             </div>
           </div>
         </div>

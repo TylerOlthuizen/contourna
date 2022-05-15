@@ -1,23 +1,24 @@
 import React from 'react';
 import PropTypes from "prop-types";
 import { IoChevronForward } from "react-icons/io5";
+import { Link } from "gatsby";
 export default function Button(props){
   const {title , path , type } = props;
 
   if(type == "primary"){
     return(
-      <a href={`${path}`} className="primary-cta">
+      <Link to={`${path}`} className="primary-cta">
         {title}
-      </a>
+      </Link>
     )
   } else{
     return(
-      <a href={`${path}`} className="secondary-cta">
+      <Link to={`${path}`} className="secondary-cta">
         <span>
           {title}
         </span>
         <IoChevronForward />
-      </a>
+      </Link>
     )
   }
 } 
