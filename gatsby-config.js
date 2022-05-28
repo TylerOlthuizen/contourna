@@ -90,5 +90,12 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     "gatsby-plugin-netlify", // make sure to keep it last in the array
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://contourna.us17.list-manage.com/subscribe/post?u=90edfe3d215b825c6956685cd&amp;id=b73a0383e9', // string; add your MC list endpoint here; see instructions below
+          timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
+      },
+    },
   ],
 };

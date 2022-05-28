@@ -1,7 +1,18 @@
 .navbar 
   padding: 2rem 0rem
+  position: sticky !important
+  top:0
+  transition: background-color .2s ease
+  &.scrolled
+    background-color: $c-yellow  
+    .navbar-item
+      color:$c-invert
+    .primary-cta
+     background: $c-invert 
+     color:$c-yellow 
   .container
     justify-content: space-between
+    padding: 0 1rem
     .navbar-item
       flex:1
     .navbar-item.logo
@@ -31,3 +42,8 @@
     img
       width:65%
   
+
+footer 
+  .menu-list 
+    li
+      margin-top: 0
