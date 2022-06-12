@@ -33,36 +33,36 @@ services:
     - title: Retain Customers
       content: "After a positive experience, 69% would recommend the company to others
         and 50% would use the business more frequently. "
-      image: /img/undraw_online_organizer_re_156n.svg
-    - image: /img/undraw_online_organizer_re_156n.svg
+      image: /img/undraw_personal_file_re_5joy.svg
+    - image: /img/undraw_predictive_analytics_re_wxt8.svg
       title: Boosted Sales
       content: 55% of customers become a customer of a company because of their
         reputation for a great product or service.
     - title: Stay Organized and Productive
       content: 75% of small business owners believe disorganization leads to turnover,
         productivity loss and missed opportunities.
-      image: /img/undraw_online_organizer_re_156n.svg
+      image: /img/undraw_thought_process_re_om58.svg
     - title: Reduce Employee  Costs
       content: "81% of businesses agree that employee turnover is a costly
         problem,  costing  $1,500 per hourly employee or 6 months for a salaried
         worker.  "
-      image: /img/undraw_online_organizer_re_156n.svg
+      image: /img/undraw_takeout_boxes_ap54.svg
 solutions:
   heading: Contourna Solutions
   home-solution-cards:
-    - image: /img/undraw_online_organizer_re_156n.svg
+    - image: /img/undraw_onboarding_re_6osc.svg
       title: Hiring & Onboarding
       content: "With our employee onboarding approach, you’ll save time and better
         meet employee needs, and improve retention. "
       ctaTitle: Learn More
       ctaPath: solutions/hiring-and-onboarding
-    - image: /img/undraw_online_organizer_re_156n.svg
+    - image: /img/undraw_happy_announcement_re_tsm0.svg
       title: Customer Satisfaction
       content: "We aim to retain the customer by  tailoring your business to meet
         customer needs to increase your resources and minimize minutia. "
       ctaTitle: Learn More
       ctaPath: solutions/customer-satisfaction
-    - image: /img/undraw_online_organizer_re_156n.svg
+    - image: /img/undraw_feeling_proud_qne1.svg
       title: Employee Involvement
       content: "Our goal is keeping the employees aligned with the company's values.
         As a result, you will have more time to grow your business in other
